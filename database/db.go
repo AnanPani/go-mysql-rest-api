@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	_ "github.com/go-sql-driver/mysql" // Import the MySQL driver
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var DB *sql.DB
