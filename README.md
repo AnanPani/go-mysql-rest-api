@@ -1,10 +1,14 @@
 สร้าง Database Import จากไฟล์ go_api_db.sql.sql
 
 ใช้คำสั่ง
-go get github.com/go-sql-driver/mysql
-go get github.com/gorilla/mux
-go get github.com/golang-jwt/jwt/v5
-go get golang.org/x/crypto/bcrypt
+go get github.com/go-sql-driver/mysql  
+
+go get github.com/gorilla/mux  
+
+go get github.com/golang-jwt/jwt/v5  
+
+go get golang.org/x/crypto/bcrypt   
+
 
 รันและทดสอบ API
 รัน Go Application:
