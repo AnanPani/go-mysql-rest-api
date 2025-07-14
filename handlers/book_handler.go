@@ -65,7 +65,7 @@ func GetBook(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(book)
 }
 
-// CreateBook handles POST requests to create a new book
+// CreateBook จัดการคำขอ POST เพื่อสร้างหนังสือเล่มใหม่
 func CreateBook(w http.ResponseWriter, r *http.Request) {
 	var book models.Book
 	err := json.NewDecoder(r.Body).Decode(&book)
